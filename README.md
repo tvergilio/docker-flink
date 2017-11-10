@@ -22,3 +22,8 @@ Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/
 
 Apache Flink, Flink®, Apache®, the squirrel logo, and the Apache feather logo are either registered trademarks or trademarks of The Apache Software Foundation.
 
+Edited by tvergilio
+-------------------
+
+Edited flink:1.3.2-hadoop2-scala_2.10 image.
+Set taskmanager.data.port and taskmanager.rpc.port to 6126 and 6127.
