@@ -27,10 +27,10 @@ Edited by tvergilio
 
 Edited flink:1.3.2-hadoop2-scala_2.10 alpine image.
 
-The original image configured the following ports:
+### The original image configured the following ports:
 blob.server.port: 6124
 query.server.port: 6125
 
-I added the following configuration:
-taskmanager.data.port: 6126
-taskmanager.rpc.port: 6127
+### I added the following configuration:
+* taskmanager.data.port: 6126
+* taskmanager.rpc.port: 6127
