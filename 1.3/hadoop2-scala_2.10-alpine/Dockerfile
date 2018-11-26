@@ -39,8 +39,8 @@ ENV FLINK_URL_FILE_PATH=flink/flink-${FLINK_VERSION}/flink-${FLINK_VERSION}-bin-
 #    FLINK_ASC_URL=https://www.apache.org/dist/${FLINK_URL_FILE_PATH}.asc
 
 # Hardcode these because the mirros above no longer work
-ENV FLINK_TGZ_URL=https://archive.apache.org/dist/flink/flink-1.3.2/flink-1.3.2-bin-hadoop2-scala_2.10.tgz
-FLINK_ASC_URL=https://archive.apache.org/dist/flink/flink-1.3.2/flink-1.3.2-bin-hadoop2-scala_2.10.tgz.asc
+ENV FLINK_TGZ_URL=https://archive.apache.org/dist/flink/flink-1.3.2/flink-1.3.2-bin-hadoop2-scala_2.10.tgz \
+    FLINK_ASC_URL=https://archive.apache.org/dist/flink/flink-1.3.2/flink-1.3.2-bin-hadoop2-scala_2.10.tgz.asc
 
 # For GPG verification instead of relying on key servers
 COPY KEYS /KEYS
